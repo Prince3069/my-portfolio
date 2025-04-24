@@ -324,13 +324,14 @@ final List<Quote> ksQuotes = [
   ),
 ];
 
-const String ksFacebookLink = 'https://www.facebook.com/ye.lwin.oo.someone';
-const String ksGithubLink = 'https://github.com/YeLwinOo-Steve';
-const String ksLinkedInLink = 'https://www.linkedin.com/in/ye-lwin-oo-ucsm/';
-const String ksMediumLink = 'https://yelwino.medium.com/';
+const String ksFacebookLink = 'https://www.facebook.com/prince.nwanozie';
+const String ksGithubLink = 'https://github.com/Prince3069';
+const String ksLinkedInLink =
+    'https://www.linkedin.com/in/prince-nwanozie-754551236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app';
+const String ksMediumLink = 'https://princeNwanozie.medium.com/';
 const String ksStackoverflowLink =
-    'https://stackoverflow.com/users/19209151/ye-lwin-oo';
-const String ksDiscordLink = 'https://discordapp.com/users/809527318632071178';
+    'https://stackexchange.com/users/29995538/prince-nwanozie';
+const String ksDiscordLink = 'https://discordapp.com/users/';
 final List<SocialMedia> ksSocialMedia = [
   SocialMedia(
     link: ksFacebookLink,
@@ -399,44 +400,58 @@ const String _MAC = 'MacOs';
 const String _WEB = 'Web';
 final List<ShowcaseProject> ksShowcaseProjects = [
   ShowcaseProject(
-    title: 'Pulse-X State Management',
-    image: kaPulseX,
+    title: 'Car Plaza',
+    image:
+        'kaPulseX', // Make sure you have this image in your assets or use a valid image reference
     shortDescription:
-        "Pulse-X is a state management library for Flutter projects.",
+        'A car marketplace platform designed to streamline car sales in Nigeria.',
     description: """
-        Pulse-X is the state management for Flutter projects. It has four features:
-          - state management
-          - context-less routing
-          - dependency injection 
-          - reaction (side effects)
-        """,
+    Car Plaza is a full-featured mobile and web application that allows users to buy and sell cars in Nigeria.
+    
+    Core Features:
+      - Post and manage car listings with images and videos
+      - Integrated chat system for buyers and sellers
+      - QR code scanning to check accident and service history
+      - Escrow payments using Firebase and Flutter backend functions
+      - Real-time notifications and messaging with Firebase Cloud Messaging
+      - Firebase Authentication for user sign-in with Google and email
+      - Car search and filtering by brand, price, and location
+      - Clean and responsive UI with dark mode support
+  """,
     link: ProjectInfo(
       icon: kiLink,
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://pub.dev/packages/pulse_x",
-        "https://github.com/YeLwinOo-Steve/pulse_x",
+        "https://github.com/Prince3069/carplaza",
       ],
     ),
-    heroTag: 'pulse-x',
+    heroTag: 'car-plaza',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
       contents: [
-        'package',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
-        'state management',
+        'flutter',
+        'firebase',
+        'car marketplace',
+        'nigeria',
+        'escrow payment',
+        'QR code',
       ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _FLUTTER.toUpperCase(),
-        _DART.toUpperCase(),
+        'FLUTTER',
+        'DART',
+        'FIREBASE',
+        'FIRESTORE',
+        'FIREBASE STORAGE',
+        'FIREBASE FUNCTIONS',
+        'FIREBASE AUTH',
+        'FCM',
       ],
     ),
     author: ProjectInfo(
@@ -452,106 +467,66 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       contents: [
         _ANDROID,
         _IOS,
-        _WINDOWS,
-        _LINUX,
-        _MAC,
+        _WEB,
       ],
     ),
   ),
   ShowcaseProject(
-    title: 'Notee Personal Management App',
-    image: kaNotee,
-    shortDescription: "Notee is a personal management app built with Flutter",
-    description: """
-        Notee is a personal management app that includes four parts :
-          - Note taking
-          - To-Do List
-          - Timer
-          - Account Control
-        """,
-    link: ProjectInfo(
-        icon: kiLink,
-        label: "Project Links",
-        isLink: true,
-        contents: [
-          "https://github.com/YeLwinOo-Steve/notee",
-        ]),
-    heroTag: 'notee',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: [
-        'app',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
-        'note',
-        'to-do',
-        'timer',
-      ],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _FLUTTER.toUpperCase(),
-        _DART.toUpperCase(),
-        _FIREBASE.toUpperCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [
-        _ANDROID,
-        _IOS,
-      ],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'Threads Logo Animation',
-    image: kaThread,
+    title: 'LiveKick',
+    image:
+        kaNotee, // Make sure you have this image in your assets or use a valid image reference
     shortDescription:
-        "Animated Facebook Threads App Logo made with custom paths and painters",
+        'Live football streaming, analysis, and community interaction for passionate fans.',
     description: """
-        Here, I provide you with 4 things:
-          1. Two versions of animated threads logo - stroked thread logo and filled threads logo
-          2. Custom Gradient slider with gradient thumb
-          3. Custom Gradient Text
-          4. Custom Gradient Icon Button
-        """,
+    LiveKick is a real-time football streaming and fan engagement platform that provides an all-in-one experience for football lovers.
+
+    Core Features:
+      - Live streaming of football matches
+      - Real-time match stats and odds integration
+      - Interactive live chat rooms for each game
+      - Game highlights and replay clips
+      - In-depth match analysis and commentary
+      - Clean and engaging UI optimized for sports content
+      - Firebase-based push notifications for game alerts and highlights
+      - User authentication using Google and email sign-in
+      - Designed for both mobile and web with dark/light mode support
+  """,
     link: ProjectInfo(
       icon: kiLink,
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://github.com/YeLwinOo-Steve/thread_logo_animation",
+        "https://github.com/Prince3069/livekick",
       ],
     ),
-    heroTag: 'threads_logo',
+    heroTag: 'livekick',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
       contents: [
-        'animation',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
+        'flutter',
+        'firebase',
+        'football streaming',
+        'live chat',
+        'match stats',
+        'odds',
+        'analysis',
       ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _DART.toUpperCase(),
-        _FLUTTER.toUpperCase(),
+        'FLUTTER',
+        'DART',
+        'FIREBASE',
+        'FIRESTORE',
+        'FIREBASE STORAGE',
+        'FIREBASE FUNCTIONS',
+        'FIREBASE AUTH',
+        'FCM',
+        'VIDEO STREAMING',
       ],
     ),
     author: ProjectInfo(
