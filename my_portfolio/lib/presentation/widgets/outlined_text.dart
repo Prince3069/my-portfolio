@@ -39,7 +39,7 @@ class OutlinedText extends StatelessWidget {
             ..color = strokeColor,
         ),
         textScaleFactor: context.textScaleFactor(),
-      // ),
+      ),
       Text(
         text,
         style: TextStyle(
