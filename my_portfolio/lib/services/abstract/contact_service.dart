@@ -1,5 +1,5 @@
-// import 'package:Prince/data/model/contact.dart';
+import 'package:Prince/data/model/contact.dart';
 
-// abstract class ContactService {
-//   Future<void> sendMessage(Contact contact);
-// }
+abstract class ContactService {
+  Future<void> sendMessage(Contact contact);
+}
