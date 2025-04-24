@@ -1,14 +1,12 @@
-// import 'package:Prince/domain/contact_viewmodel.dart';
-// import 'package:Prince/services/implementation/impl_contact_service.dart';
-// import 'package:locator/locator.dart';
-// // import 'package:yelwinoo/domain/contact_viewmodel.dart';
-// // import 'package:yelwinoo/services/implementation/impl_contact_service.dart';
+import 'package:Prince/domain/contact_viewmodel.dart';
+import 'package:Prince/services/implementation/impl_contact_service.dart';
+import 'package:locator/locator.dart';
 
-// const locator = Locator();
+const locator = Locator();
 
-// class Injection {
-//   static void setUp() {
-//     locator.put(ImplContactService());
-//     locator.put(ContactViewModel(service: locator.get<ImplContactService>()));
-//   }
-// }
+class Injection {
+  static void setUp() {
+    locator.put(ImplContactService());
+    locator.put(ContactViewModel(service: locator.get<ImplContactService>()));
+  }
+}
