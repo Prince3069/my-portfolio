@@ -52,13 +52,23 @@ class DefaultFirebaseOptions {
     }
   }
 
+//   static const FirebaseOptions web = FirebaseOptions(
+//     apiKey: 'AIzaSyDa15xN1k-ILLmXmoLs-z_4cupBC2hMAgE',
+//     appId: '1:151323406092:web:57c07869722ca345fe6329',
+//     messagingSenderId: '151323406092',
+//     projectId: 'potfolio-9a215',
+//     authDomain: 'potfolio-9a215.firebaseapp.com',
+//     storageBucket: 'potfolio-9a215.appspot.com',
+//     measurementId: 'G-GL28284E6P',
+//   );
+// }
+
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDa15xN1k-ILLmXmoLs-z_4cupBC2hMAgE',
-    appId: '1:151323406092:web:57c07869722ca345fe6329',
-    messagingSenderId: '151323406092',
-    projectId: 'potfolio-9a215',
-    authDomain: 'potfolio-9a215.firebaseapp.com',
-    storageBucket: 'potfolio-9a215.appspot.com',
-    measurementId: 'G-GL28284E6P',
-  );
+      apiKey: "AIzaSyB5PM1ErCcNWw5JVPocZSKDpdXCrXqKmjg",
+      authDomain: "potfolio-cb6f8.firebaseapp.com",
+      projectId: "potfolio-cb6f8",
+      storageBucket: "potfolio-cb6f8.firebasestorage.app",
+      messagingSenderId: "976682532304",
+      appId: "1:976682532304:web:b29659b6e3f60963ba0dd5",
+      measurementId: "G-4GTBZEFEBZ");
 }
