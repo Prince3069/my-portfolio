@@ -24,31 +24,31 @@ class AwardsAndActivities extends StatelessWidget {
           controller: stickController,
         ),
         horizontalSpaceMedium,
-        AnimatedTextSlideBoxTransition(
-          text: ksAwardsAndActivities.toUpperCase(),
-          controller: textController,
-          coverColor: kPrimary,
-          textStyle: Theme.of(context).textTheme.bodySmall?.copyWith(
-                fontWeight: FontWeight.w700,
-              ),
-        ),
+        // AnimatedTextSlideBoxTransition(
+        //   // text: ksAwardsAndActivities.toUpperCase(),
+        //   controller: textController,
+        //   coverColor: kPrimary,
+        //   textStyle: Theme.of(context).textTheme.bodySmall?.copyWith(
+        //         fontWeight: FontWeight.w700,
+        //       ),
+        // ),
       ].addRow(),
       verticalSpaceMassive,
-      SlideWidget(
-        <Widget>[
-          ...ksActivityList
-              .map(
-                (activity) => ActivityContainer(
-                  activity: activity,
-                ),
-              )
-              .toList(),
-        ].addColumn(
-          mainAxisSize: MainAxisSize.min,
-        ),
-        animation: infoController,
-        slidePosition: SlidePosition.bottom,
-      ),
+      // SlideWidget(
+      //   <Widget>[
+      //     ...ksActivityList
+      //         .map(
+      //           (activity) => ActivityContainer(
+      //             activity: activity,
+      //           ),
+      //         )
+      //         .toList(),
+      //   ].addColumn(
+      //     mainAxisSize: MainAxisSize.min,
+      //   ),
+      //   animation: infoController,
+      //   slidePosition: SlidePosition.bottom,
+      // ),
     ].addColumn(
       crossAxisAlignment: CrossAxisAlignment.start,
     );

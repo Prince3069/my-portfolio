@@ -25,10 +25,12 @@ const String coffeeAddict = "coffee addict";
 const String ksIntrovert = "an introvert";
 const String ksIm = "I'm";
 const String ksIntro = """
-  Hi, I'm Ye Lwin Oo!
-    - a passionate mobile developer
-    - a CDM student from UCSM
-    - an avid reader
+  Hi, I'm Prince Ifeanyi Nwanozie!
+    - Passionate Flutter developer
+    - Love building clean, 
+      responsive mobile apps
+    - Currently exploring: Firebase, 
+      AI, & cross-platform design
   """;
 const String ksSeeMyWork = "See my work";
 const String ksBrowseProjects = "Browse My Projects";
@@ -59,8 +61,8 @@ const String ksSlash = "/";
 const String ksLetsWork = "Let's work together!";
 const String ksFreelanceAvailability = "I'm available for Freelancing";
 const String ksContactInfo = "- Contact Info";
-const String ksWorkEmail = "yelwinoo.work@gmail.com";
-const String ksWorkPhone = "+959 976294818";
+const String ksWorkEmail = "Princenwanozie6666@gmail.com";
+const String ksWorkPhone = "+2349056143069";
 const String ksCreditTo = "- Big Thanks";
 const String ksDavidCobbina = "David Cobbina";
 const String ksDavidCobbinaWebsite = "https://davidcobbina.com/";
@@ -69,7 +71,7 @@ const String ksJuliusGWebsite =
     "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
 const String ksBuildUsing = "Build using ";
 const String ksWithMuch = " with much ";
-const String ksCC = "©️ 2023 Ye Lwin Oo";
+const String ksCC = "©️ 2023 Prince Ifeanyi Nwanozie";
 const String ksYoung = "When I was young, I was a kid!";
 const String ksNobody = "I'm NOBODY";
 const String ksSpecialization =
@@ -79,9 +81,9 @@ const String ksWhatILove = "What I Love To Do";
 const String ksBriefAboutMe =
     "Hi! I'm a Front-end Software Engineer who is passionate about emerging Technologies and AI. I have fairly extensive amount of experience in developing high quality applications. I often work on freelance projects.";
 const String ksMyLife =
-    "I was a third year student from the University of Computer Studies, Mandalay, Myanmar. But I dropped out in 2020 because of Military Coup & COVID-19.";
+    "I was a graduate from the University of Nigeria Nsukka, Department of Electrical Engineering with second class honours.";
 const String ksProfession =
-    "I started working as a Flutter Developer since 2019. Later, I fell in love with it. I'm eager to contribute in Flutter community. Recently, I've published my first state management package: Pulse-X and animated button library: Pretty Animated Buttons.";
+    "I started working as a Flutter Developer since 2021. Later, I fell in love with it. I'm eager to contribute in Flutter community. Recently I’ve shipped apps like ShopEase (e-commerce), LiveKick (football livestream and news app), Car Plaza (car marketplace), and Afro Caribbean News (news + learning + payments) — all built with Flutter and Firebase..";
 
 const String ksMyTools =
     "I use a bunch of tools and technologies to make design and implementation process easier. ";
@@ -105,6 +107,20 @@ final List<String> ksOtherTech = [
   'MongoDB',
   'SQL',
   'Python',
+  'AWS',
+  'Dart FFI',
+  'Redux',
+  'Riverpod',
+  'Socket.IO',
+  'Docker',
+  'Stripe',
+  'Firebase Analytics',
+  'ElasticSearch',
+  'GraphQL Code Generator',
+  'Kotlin',
+  'Swift',
+  'Flutter Web',
+  'Flutter Desktop',
 ];
 
 const String ksCoding = "Software Engineering";
@@ -126,140 +142,118 @@ final List<RouteModel> ksMenu = [
   RouteModel(label: ksContact, route: Routes.contact),
 ];
 
-const String ksAwardsAndActivities = "Awards & Activities";
-const String ksAward = "Award I've won";
-const String ksAwardName = "Design Award by WIT (Web Innovative Talent Award)";
-const String ksAwardLink = "https://witaward.com/result/2020";
-const String ksAwardDetails = """
-- The biggest web development contest in Myanmar ( collaboration with Japan )
-- This project aims for foreigners and Myanmar citizens who are enthusiastic about Myanmar culture, cuisine, handicrafts and who want to pay a visit to famous places in Myanmar and who want to enhance their knowledge about various ethnic groups in Myanmar.
-""";
-const String ksActivities = "Activities I've joined";
-final List<Activity> ksActivityList = [
-  Activity(
-    title: ksAward,
-    name: ksAwardName,
-    icon: kiTrophy,
-    details: ksAwardDetails,
-    link: ksAwardLink,
-  ),
-  Activity(
-    title: ksActivities,
-    name:
-        "TFI SCALE Program (Temasek Foundation International Specialists' Community Action andLeadership Exchange Program - Singapore)",
-    icon: kiActivity,
-    details:
-        "This is a five-week Exchange Program with Singapore Polytechnic ( 3-weeks in Singapore and 2-weeks in Myanmar Learnt data analytics, design thinking and co-operation skills and applied them on the Coffee Farm Project",
-  ),
-  Activity(
-    name:
-        "JST Japan-Asia Youth Program (Sakura Science Exchange Program - Japan)",
-    icon: kiActivity,
-    details:
-        "This is a 9-days Exchange Program at Miyakonojo College, Miyazaki, Japan\nLearnt basic IOT and made the POINT Traffic Control System ( Traffic lights control system with extended functionalities such as alerts when driver recklessly drive while red light is on )",
-  ),
-];
+// const String ksAwardsAndActivities = "Awards & Activities";
+// const String ksAward = "Award I've won";
+// const String ksAwardName = "Design Award by WIT (Web Innovative Talent Award)";
+// const String ksAwardLink = "https://witaward.com/result/2020";
+// const String ksAwardDetails = """
+// - The biggest web development contest in Myanmar ( collaboration with Japan )
+// - This project aims for foreigners and Myanmar citizens who are enthusiastic about Myanmar culture, cuisine, handicrafts and who want to pay a visit to famous places in Myanmar and who want to enhance their knowledge about various ethnic groups in Myanmar.
+// """;
+// const String ksActivities = "Activities I've joined";
+// final List<Activity> ksActivityList = [
+//   Activity(
+//     title: ksAward,
+//     name: ksAwardName,
+//     icon: kiTrophy,
+//     details: ksAwardDetails,
+//     link: ksAwardLink,
+//   ),
+//   Activity(
+//     title: ksActivities,
+//     name:
+//         "TFI SCALE Program (Temasek Foundation International Specialists' Community Action andLeadership Exchange Program - Singapore)",
+//     icon: kiActivity,
+//     details:
+//         "This is a five-week Exchange Program with Singapore Polytechnic ( 3-weeks in Singapore and 2-weeks in Myanmar Learnt data analytics, design thinking and co-operation skills and applied them on the Coffee Farm Project",
+//   ),
+//   Activity(
+//     name:
+//         "JST Japan-Asia Youth Program (Sakura Science Exchange Program - Japan)",
+//     icon: kiActivity,
+//     details:
+//         "This is a 9-days Exchange Program at Miyakonojo College, Miyazaki, Japan\nLearnt basic IOT and made the POINT Traffic Control System ( Traffic lights control system with extended functionalities such as alerts when driver recklessly drive while red light is on )",
+//   ),
+// ];
 
 final List<Experience> ksExperiences = [
   Experience(
-    company: "Simbolo Learning Platform",
-    position: "Flutter Instructor",
+    company: "Freelancer",
+    position: "Flutter Developer",
     responsibilities: [
-      "Taught over 30 students (batch 1 & batch 2)",
-      "Taught basic Dart Programming Language",
-      "Taught basic Flutter Widgets",
-      "Taught Provider & GetX state managements",
-      "Taught Networking and Local Storage",
-      "Taught Clean Code Principles and 5 Design Patterns",
+      "Built and maintained multiple full-stack Flutter applications",
+      "Developed Car Plaza – a smart car selling platform",
+      "Developed ShopEase – a Firebase-powered multi-feature e-commerce platform",
+      "Developed LiveKick – a real-time football streaming app",
+      "Built All Social Downloader – a tool to download videos from all social media platforms",
+      "Created Afro Caribbean – a news and learning platform about African and Caribbean countries",
     ],
-    startDate: DateTime(2023, 11),
+    startDate: DateTime(2023, 10),
     endDate: DateTime.now(),
   ),
   Experience(
-    company: "AYA Inno Labs (AYA Bank)",
-    position: "Senior Flutter Developer",
+    company: "Coursenetic",
+    position: "Flutter Developer",
     responsibilities: [
-      "Software house of the second largest commercial bank in Myanamar",
-      "Closely collaborated with mobile developers, backend developers, UI/ UX designers and QA team for AYA Pay v3.0 Lite App",
-      """Mainly responsible for 
-        ● Project Architecture
-        ● Authentication flow,
-        ● OCR Scanning,
-        ● Third-party payments,
-        ● Vouchers, Deals & Rewards
-        ● Transaction history
-        """,
-      "Maintain AYA Pay Partner App used by tens of thousands of users",
+      "Worked for 1.5 years building and maintaining Flutter apps",
+      "Integrated Firebase Authentication, Firestore, Cloud Functions, and Storage",
+      "Built production-ready apps with clean architecture and scalable state management",
+      "Worked on responsive UI for mobile, tablet, and desktop with Flutter",
     ],
-    startDate: DateTime(2022, 9),
-    endDate: DateTime.now(),
+    startDate: DateTime(2022, 4),
+    endDate: DateTime(2023, 10),
   ),
   Experience(
-    company: "Nexus Hub Solution",
-    position: "Mid-Senior Flutter Developer",
+    company: "Best Institute",
+    position: "DevOps Intern",
     responsibilities: [
-      "Lead a team of 2 Flutter developers and worked closely with backend developer and UI/UX designers",
-      "Started learning Appwrite, Mobx and dynamic modelling in Flutter",
-      "Contributed in Music Player app, HR Management System and E-commerce app",
-      "Worked closely with UI/UX designer & Backend developer in developing Travel Agency Proprietary System",
+      "Worked with AWS, Jenkins, Docker, and Kubernetes",
+      "Built CI/CD pipelines and automated deployment processes",
+      "Assisted in infrastructure provisioning and cloud monitoring",
     ],
-    startDate: DateTime(2022, 9),
-    endDate: DateTime(2023, 4),
+    startDate: DateTime(2021, 6),
+    endDate: DateTime(2021, 12),
   ),
   Experience(
-    company: "App.com.mm",
-    position: "Mid-Senior Flutter Developer",
+    company: "Ceandy Computer Institute",
+    position: "Frontend Developer Intern",
     responsibilities: [
-      "Lead and trained a team of 3 Flutter developers in developing mobile applications",
-      "Contributed features in Blogging app & E-commerce app",
-      "Worked on the delivery service mobile app",
+      "Created several responsive websites using HTML, CSS, JavaScript, and Bootstrap",
+      "Collaborated with designers to implement interactive UI components",
+      "Applied basic SEO and performance optimization techniques",
     ],
-    startDate: DateTime(2022, 5),
-    endDate: DateTime(2022, 9),
-  ),
-  Experience(
-    company: "7r48",
-    position: "Junior Flutter Developer",
-    responsibilities: [
-      "Started learning Flutter, GetX, Provider, Bloc and implementing small projects using Flutter",
-      "Worked closely with senior mobile developer and backend developer to develop Kaung Myat Denti Dental Clinic System mobile app",
-      "Worked on car service management system mobile app",
-      "Architected and implemented small projects such as TOTO lottery prediction app using AI backend using python",
-      "Implemented small python AI projects - Activity Recognition, Driver Drowsiness Detection, Football match prediction, JSON to excel file converter"
-    ],
-    type: JobType.remote,
-    startDate: DateTime(2019, 10),
-    endDate: DateTime(2022, 12),
+    startDate: DateTime(2021, 1),
+    endDate: DateTime(2021, 6),
   ),
 ];
 
-final List<Certificate> ksCertificateList = [
-  Certificate(
-    name: "GraphQL Associate Certificate",
-    image: kaGraphQLCerti,
-    link: "",
-  ),
-  Certificate(
-    name: "Deep Learning Specialization (Coursera)",
-    image: kaDeepLearningCerti,
-    link: "",
-  ),
-  Certificate(
-    name: "Intermediate Python (DataCamp)",
-    image: kaPythonCerti,
-    link: "",
-  ),
-  Certificate(
-    name: "JST Japan-Asia Youth Exchange Program",
-    image: kaJSTCerti,
-    link: "",
-  ),
-  Certificate(
-    name: "TF SCALE Leadership Exchange Program",
-    image: kaTMESEKCerti,
-    link: "",
-  ),
-];
+// final List<Certificate> ksCertificateList = [
+//   Certificate(
+//     name: "GraphQL Associate Certificate",
+//     image: kaGraphQLCerti,
+//     link: "",
+//   ),
+//   Certificate(
+//     name: "Deep Learning Specialization (Coursera)",
+//     image: kaDeepLearningCerti,
+//     link: "",
+//   ),
+//   Certificate(
+//     name: "Intermediate Python (DataCamp)",
+//     image: kaPythonCerti,
+//     link: "",
+//   ),
+//   Certificate(
+//     name: "JST Japan-Asia Youth Exchange Program",
+//     image: kaJSTCerti,
+//     link: "",
+//   ),
+//   Certificate(
+//     name: "TF SCALE Leadership Exchange Program",
+//     image: kaTMESEKCerti,
+//     link: "",
+//   ),
+// ];
 
 const String _nikolaTesla = "Nikola Tesla";
 const String _kentBeck = "Kent Beck";

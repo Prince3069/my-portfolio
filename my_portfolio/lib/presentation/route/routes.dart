@@ -34,8 +34,8 @@ class RouteGen {
         );
       case Routes.experience:
         return _buildRoute(const ExperienceView(), settings: settings);
-      case Routes.certificates:
-        return _buildRoute(const CertificatesView(), settings: settings);
+      // case Routes.certificates:
+      //   return _buildRoute(const CertificatesView(), settings: settings);
       case Routes.about:
         return _buildRoute(const AboutView(), settings: settings);
       case Routes.contact:
