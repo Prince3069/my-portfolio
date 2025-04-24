@@ -1,28 +1,28 @@
-// import 'package:flutter/material.dart';
-// import 'package:Prince/presentation/utils/extensions/extensions.dart';
-// import 'package:Prince/presentation/views/wrapper.dart';
+import 'package:flutter/material.dart';
+import 'package:Prince/presentation/utils/extensions/extensions.dart';
+import 'package:Prince/presentation/views/wrapper.dart';
 
-// import 'subviews/experience_title_page.dart';
-// import 'subviews/jobs_list_page.dart';
+import 'subviews/experience_title_page.dart';
+import 'subviews/jobs_list_page.dart';
 
-// class ExperienceView extends StatefulWidget {
-//   const ExperienceView({super.key});
+class ExperienceView extends StatefulWidget {
+  const ExperienceView({super.key});
 
-//   @override
-//   State<ExperienceView> createState() => _ExperienceViewState();
-// }
+  @override
+  State<ExperienceView> createState() => _ExperienceViewState();
+}
 
-// class _ExperienceViewState extends State<ExperienceView> {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Wrapper(
-//       page: const <Widget>[
-//         ExperienceTitlePage(),
-//         JobsListPage(),
-//       ].addListView(
-//         physics: const ClampingScrollPhysics(),
-//         scrollDirection: Axis.vertical,
-//       ),
-//     );
-//   }
-// }
+class _ExperienceViewState extends State<ExperienceView> {
+  @override
+  Widget build(BuildContext context) {
+    return Wrapper(
+      page: const <Widget>[
+        ExperienceTitlePage(),
+        JobsListPage(),
+      ].addListView(
+        physics: const ClampingScrollPhysics(),
+        scrollDirection: Axis.vertical,
+      ),
+    );
+  }
+}
