@@ -137,7 +137,7 @@ final List<RouteModel> ksMenu = [
   RouteModel(label: ksHome, route: Routes.home),
   RouteModel(label: ksProject, route: Routes.projects),
   RouteModel(label: ksExperience, route: Routes.experience),
-  RouteModel(label: ksCertificates, route: Routes.certificates),
+  // RouteModel(label: ksCertificates, route: Routes.certificates),
   RouteModel(label: ksAbout, route: Routes.about),
   RouteModel(label: ksContact, route: Routes.contact),
 ];
