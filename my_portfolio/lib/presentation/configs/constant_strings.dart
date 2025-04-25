@@ -402,7 +402,7 @@ final List<ShowcaseProject> ksShowcaseProjects = [
   ShowcaseProject(
     title: 'Car Plaza',
     image:
-        'kaPulseX', // Make sure you have this image in your assets or use a valid image reference
+        kaPulseX, // Make sure you have this image in your assets or use a valid image reference
     shortDescription:
         'A car marketplace platform designed to streamline car sales in Nigeria.',
     description: """
