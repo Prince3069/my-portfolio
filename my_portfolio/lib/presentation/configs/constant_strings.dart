@@ -911,38 +911,54 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     ),
   ),
   ShowcaseProject(
-    title: 'Design Patterns',
-    image: kaDesignPatterns,
+    title: 'Car Website',
+    image:
+        kaDesignPatterns, // Add an image of the website or use a valid image reference
     shortDescription:
-        "Design patterns usage with simple examples written in Dart",
+        'A simple and responsive car marketplace website with CI/CD pipeline integration.',
     description: """
-        Design patterns usage with simple examples written in Dart
-        Currently, not all design patterns are available yet.
-        Still developing ...
-        """,
+    Car Website is a basic web platform that allows users to browse, search, and filter car listings online. It has been developed using HTML, CSS, and JavaScript. The website also integrates CI/CD pipeline automation to ensure continuous delivery and deployment.
+
+    Core Features:
+      - Browse and search car listings by various filters (e.g., price, brand, location)
+      - Responsive and mobile-friendly design using CSS
+      - Clean and simple UI for easy navigation
+      - Integrated CI/CD pipeline for continuous deployment using Jenkins and GitHub Actions
+      - Static car listings with the possibility of future backend integration
+      - Real-time updates and error tracking with monitoring tools (e.g., LogRocket, Sentry)
+      - Hosted on GitHub Pages with simple deployment steps
+  """,
     link: ProjectInfo(
       icon: kiLink,
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://github.com/YeLwinOo-Steve/design_patterns",
+        "https://github.com/Prince3069/cicd-pipeline-train-schedule-pipelines",
       ],
     ),
-    heroTag: 'design_patterns',
+    heroTag: 'car-website',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
       contents: [
-        'design_patterns',
-        _DART.toLowerCase(),
+        'html',
+        'css',
+        'javascript',
+        'CI/CD',
+        'car marketplace',
+        'web development',
       ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _DART.toUpperCase(),
+        'HTML',
+        'CSS',
+        'JAVASCRIPT',
+        'GITHUB ACTIONS',
+        'JENKINS',
       ],
     ),
     author: ProjectInfo(
@@ -955,7 +971,9 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     platform: ProjectInfo(
       icon: kiLaptop,
       label: 'Available Platforms',
-      contents: [],
+      contents: [
+        _WEB,
+      ],
     ),
   ),
 ];
