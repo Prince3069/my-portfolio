@@ -22,10 +22,10 @@ This is my personal portfolio website v1 built with Flutter - available for mult
 - Contact Me Page
 - Firebase Integration
 
-### 🔗 Preview Links:
+<!-- ### 🔗 Preview Links:
 
 - 🕸️ [Web Version: https://yl0.me](https://yl0.me)
-- 📱 [Mobile Version](http://u.pc.cd/oJ17)
+- 📱 [Mobile Version](http://u.pc.cd/oJ17) -->
 
 ### 🪪 Project License:
 This project is licensed under [BSD 3-Clause License](LICENSE).
@@ -40,4 +40,4 @@ Follow me for more updates and more projects ...
 
 > Updated version is coming along the way ...
 
-Copyright (©️) 2023 __YE LWIN OO__
+Copyright (©️) 2023 __Prince Ifeanyi Nwanozie__
