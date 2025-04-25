@@ -21,25 +21,16 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -53,11 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-      apiKey: "AIzaSyB5PM1ErCcNWw5JVPocZSKDpdXCrXqKmjg",
-      authDomain: "potfolio-cb6f8.firebaseapp.com",
-      projectId: "potfolio-cb6f8",
-      storageBucket: "potfolio-cb6f8.firebasestorage.app",
-      messagingSenderId: "976682532304",
-      appId: "1:976682532304:web:b29659b6e3f60963ba0dd5",
-      measurementId: "G-4GTBZEFEBZ");
+    apiKey: 'AIzaSyB5PM1ErCcNWw5JVPocZSKDpdXCrXqKmjg',
+    appId: '1:976682532304:web:b29659b6e3f60963ba0dd5',
+    messagingSenderId: '976682532304',
+    projectId: 'potfolio-cb6f8',
+    authDomain: 'potfolio-cb6f8.firebaseapp.com',
+    storageBucket: 'potfolio-cb6f8.firebasestorage.app',
+    measurementId: 'G-4GTBZEFEBZ',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBFIfxhh5f8mT4RKr7i-8jcc-uWtq4O99c',
+    appId: '1:976682532304:ios:d94ea1af12539dafba0dd5',
+    messagingSenderId: '976682532304',
+    projectId: 'potfolio-cb6f8',
+    storageBucket: 'potfolio-cb6f8.firebasestorage.app',
+    iosBundleId: 'com.example.yelwinoo',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyBJN8OMYcXusLE53eNTCz3eZ84T8bVm4-A',
+    appId: '1:976682532304:android:009da756d50e58a3ba0dd5',
+    messagingSenderId: '976682532304',
+    projectId: 'potfolio-cb6f8',
+    storageBucket: 'potfolio-cb6f8.firebasestorage.app',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyB5PM1ErCcNWw5JVPocZSKDpdXCrXqKmjg',
+    appId: '1:976682532304:web:782a21ae1ef76f01ba0dd5',
+    messagingSenderId: '976682532304',
+    projectId: 'potfolio-cb6f8',
+    authDomain: 'potfolio-cb6f8.firebaseapp.com',
+    storageBucket: 'potfolio-cb6f8.firebasestorage.app',
+    measurementId: 'G-DRKQ4FGE47',
+  );
 }
