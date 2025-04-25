@@ -79,9 +79,9 @@ const String ksSpecialization =
 const String ksWhoAmI = 'Who Am I?';
 const String ksWhatILove = "What I Love To Do";
 const String ksBriefAboutMe =
-    "Hi! I'm a Front-end Software Engineer who is passionate about emerging Technologies and AI. I have fairly extensive amount of experience in developing high quality applications. I often work on freelance projects.";
+    "Hi! I'm a Full stack Software Engineer who is passionate about emerging Technologies and AI. I have fairly extensive amount of experience in developing high quality applications. I often work on freelance projects.";
 const String ksMyLife =
-    "I was a graduate from the University of Nigeria Nsukka, Department of Electrical Engineering with second class honours.";
+    "I am a graduate from the University of Nigeria Nsukka, Department of Electrical Engineering with second class honours.";
 const String ksProfession =
     "I started working as a Flutter Developer since 2021. Later, I fell in love with it. I'm eager to contribute in Flutter community. Recently I’ve shipped apps like ShopEase (e-commerce), LiveKick (football livestream and news app), Car Plaza (car marketplace), and Afro Caribbean News (news + learning + payments) — all built with Flutter and Firebase..";
 
@@ -547,43 +547,61 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     ),
   ),
   ShowcaseProject(
-    title: 'The Golden Land (Myanmar) ',
-    image: kaTheGoldenLand,
+    title: 'ShopEase',
+    image:
+        kaTheGoldenLand, // Ensure this image is added to your assets or use a network image
     shortDescription:
-        "The Golden Land (Myanmar) is a website for showing Myanmar's Culture.",
+        'A smart and clean e-commerce platform built with Flutter and Firebase.',
     description: """
-        An all-in-one website that you can explore Myanmar's Traditions
-        
-        This is the web project showing the Culture, Cuisine, Festivals, Famous Places, Ethnic Groups and Handicrafts in Myanmar.
-        Some of the data may be inaccurate because I collect most of my data on the Internet.
-        """,
+    ShopEase is a modern e-commerce application built for seamless shopping experiences on mobile and web platforms.
+
+    Core Features:
+      - Full e-commerce functionality: add to cart, checkout, and payment
+      - Product listing, search, and filtering by categories and price
+      - Firebase Authentication with Google and email sign-in
+      - Firestore integration for storing product and user data
+      - Firebase Storage for managing product images
+      - Order tracking and user profile management
+      - Clean and minimal UI with responsive layout
+      - Light and dark mode support
+      - Push notifications via Firebase Cloud Messaging
+      - Admin dashboard to manage products, orders, and users
+  """,
     link: ProjectInfo(
-        icon: kiLink,
-        label: "Project Links",
-        isLink: true,
-        contents: [
-          "https://the-golden-land.vercel.app/",
-          "https://github.com/YeLwinOo-Steve/TheGoldenLand",
-        ]),
-    heroTag: 'the-golden-land',
+      icon: kiLink,
+      label: "Project Links",
+      isLink: true,
+      contents: [
+        "https://github.com/Prince3069/shop_ease",
+      ],
+    ),
+    heroTag: 'shop-ease',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
       contents: [
-        'website',
-        _HTML.toLowerCase(),
-        _CSS.toLowerCase(),
-        _JAVASCRIPT.toLowerCase(),
+        'flutter',
+        'e-commerce',
+        'firebase',
+        'shopping',
+        'cart',
+        'payment',
+        'admin panel',
       ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _HTML.toUpperCase(),
-        _CSS.toUpperCase(),
-        _JAVASCRIPT.toUpperCase(),
+        'FLUTTER',
+        'DART',
+        'FIREBASE',
+        'FIRESTORE',
+        'FIREBASE STORAGE',
+        'FIREBASE FUNCTIONS',
+        'FIREBASE AUTH',
+        'FCM',
       ],
     ),
     author: ProjectInfo(
@@ -597,46 +615,136 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       icon: kiLaptop,
       label: 'Available Platforms',
       contents: [
+        _ANDROID,
+        _IOS,
         _WEB,
       ],
     ),
   ),
   ShowcaseProject(
-    title: 'Pretty Animated Buttons',
-    image: kaAnimatedButtons,
+    title: 'All Social Downloader',
+    image:
+        kaAnimatedButtons, // Make sure this image exists in your assets or use a network image
     shortDescription:
-        "A collection of ready-to-use smoothly animated pretty buttons written in Flutter",
+        'Download videos from all major social platforms effortlessly.',
     description: """
-        Pretty Animated Buttons is a package for a collection of beautiful animated buttons which are highly customizable too.
-        Currently, a total of 12 animated buttons are available. More fancy buttons are coming soon...
-        """,
+    All Social Downloader is an all-in-one mobile solution for downloading videos from your favorite social platforms and messaging apps.
+
+    Core Features:
+      - Download videos from Instagram, TikTok, YouTube, Facebook, Twitter, and more
+      - Save WhatsApp statuses (images and videos)
+      - Smart dropdown option to download videos without opening the app
+      - Pop-up download prompt when watching a supported video
+      - Built-in video preview player before downloading
+      - Lightweight, fast, and user-friendly interface
+      - Dark and light mode support
+      - Download history management and save to custom folders
+  """,
     link: ProjectInfo(
       icon: kiLink,
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://pub.dev/packages/pretty_animated_buttons",
-        "https://github.com/YeLwinOo-Steve/pretty_animated_buttons",
+        "https://github.com/Prince3069/all_social_downloader",
       ],
     ),
-    heroTag: 'pretty_animated_buttons',
+    heroTag: 'all-social-downloader',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
       contents: [
-        'package',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
-        'animation',
+        'flutter',
+        'video downloader',
+        'whatsapp status saver',
+        'instagram',
+        'tiktok',
+        'youtube',
+        'facebook',
+        'twitter',
+        'smart downloader',
       ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _FLUTTER.toUpperCase(),
-        _DART.toUpperCase(),
+        'FLUTTER',
+        'DART',
+      ],
+    ),
+    author: ProjectInfo(
+      icon: kiPerson,
+      label: 'Developer',
+      contents: [
+        _ME,
+      ],
+    ),
+    platform: ProjectInfo(
+      icon: kiLaptop,
+      label: 'Available Platforms',
+      contents: [
+        _ANDROID,
+      ],
+    ),
+  ),
+  ShowcaseProject(
+    title: 'Afro Caribbean',
+    image:
+        kaIronMan, // Make sure to include this image in your assets or use a network image
+    shortDescription:
+        'News, culture, education, and stories from across Africa and the Caribbean.',
+    description: """
+    Afro Caribbean is a smart, educational news and culture platform built for people passionate about African and Caribbean regions.
+
+    Core Features:
+      - Aggregated news from GDELT, Mediastack, and Bing News APIs
+      - Category-based filtering: History & Culture, Tech, Tourism, Education, Entertainment, Sports, and more
+      - Country selector with default set to Jamaica
+      - Discover page like Udemy for learning culture, food, languages
+      - Users can upload educational videos (stored on Firebase) and monetize them
+      - Video playback and download, with resume-from-last-view feature
+      - Firebase Firestore for storing articles, Firebase Storage for videos
+      - Infinite scrolling and always-fresh updates
+      - Clean blue and white UI with image-rich article previews
+      - No login needed on the web version, but still tracks analytics
+      - Fully responsive website with mobile-first layout
+  """,
+    link: ProjectInfo(
+      icon: kiLink,
+      label: "Project Links",
+      isLink: true,
+      contents: [
+        "https://github.com/Prince3069/AFRO-APP",
+      ],
+    ),
+    heroTag: 'afro-caribbean',
+    tags: ProjectInfo(
+      icon: kiTag,
+      label: 'Tags',
+      isTag: true,
+      contents: [
+        'flutter',
+        'firebase',
+        'africa',
+        'caribbean',
+        'education',
+        'news',
+        'culture',
+        'language learning',
+      ],
+    ),
+    tech: ProjectInfo(
+      icon: kiChip,
+      label: 'Tools & Technologies',
+      contents: [
+        'FLUTTER',
+        'DART',
+        'FIREBASE',
+        'FIRESTORE',
+        'FIREBASE STORAGE',
+        'FIREBASE FUNCTIONS',
+        'FIREBASE ANALYTICS',
       ],
     ),
     author: ProjectInfo(
@@ -652,46 +760,67 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       contents: [
         _ANDROID,
         _IOS,
-        _LINUX,
-        _MAC,
         _WEB,
       ],
     ),
   ),
   ShowcaseProject(
-    title: 'Flappy Ironman',
-    image: kaIronMan,
-    shortDescription: "Flappy Ironman game inspired by Flappy Bird Game",
+    title: 'InvestWatch',
+    image:
+        kaAIChatBot, // Ensure this image is added to your assets or provide a valid network image
+    shortDescription:
+        'Track stocks, crypto, portfolios, and news in real-time with smart insights.',
     description: """
-        This is Flappy Ironman game inspired by Flappy Bird Game. 
-        No external game engine packages are used.
-        Written in Flutter ...
-        """,
+    InvestWatch is a real-time financial tracking platform that empowers users to stay on top of their investments across multiple assets.
+
+    Core Features:
+      - Real-time stock and cryptocurrency tracking with data from Binance, Alpha Vantage, or Yahoo Finance
+      - Customizable portfolio management and tracking
+      - Real-time price alerts with Firebase Cloud Messaging
+      - Market news aggregation and detailed analysis
+      - Dark and light mode switch for better UX
+      - Firebase Authentication with email and Google sign-in
+      - Firestore for storing user portfolios and activity
+      - Firebase Analytics for user behavior insights
+      - Clean, responsive UI compatible with mobile, tablet, and desktop
+      - Built with Flutter for multi-platform deployment
+  """,
     link: ProjectInfo(
       icon: kiLink,
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://github.com/YeLwinOo-Steve/FlappyIronman",
+        "https://github.com/Prince3069/investwatch",
       ],
     ),
-    heroTag: 'flappy_ironman',
+    heroTag: 'investwatch',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
       contents: [
-        'game',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
+        'flutter',
+        'firebase',
+        'stocks',
+        'crypto',
+        'investment',
+        'portfolio',
+        'finance tracker',
       ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _DART.toUpperCase(),
-        _FLUTTER.toUpperCase(),
+        'FLUTTER',
+        'DART',
+        'FIREBASE',
+        'FIRESTORE',
+        'FIREBASE STORAGE',
+        'FIREBASE FUNCTIONS',
+        'FIREBASE AUTH',
+        'FCM',
+        'FIREBASE ANALYTICS',
       ],
     ),
     author: ProjectInfo(
@@ -707,57 +836,8 @@ final List<ShowcaseProject> ksShowcaseProjects = [
       contents: [
         _ANDROID,
         _IOS,
-      ],
-    ),
-  ),
-  ShowcaseProject(
-    title: 'AI Chat Bot',
-    image: kaAIChatBot,
-    shortDescription: "AI chat bot using Flutter and Dialogflow.",
-    description: """
-        AI chat bot using Flutter and Dialogflow.
-        ⚠️ Dialogflow key is now expired so it won't work no more ...
-        """,
-    link: ProjectInfo(
-      icon: kiLink,
-      label: "Project Links",
-      isLink: true,
-      contents: [
-        "https://github.com/YeLwinOo-Steve/AIChatbot",
-      ],
-    ),
-    heroTag: 'ai_chat_bot',
-    tags: ProjectInfo(
-      icon: kiTag,
-      label: 'Tags',
-      isTag: true,
-      contents: [
-        'chat bot',
-        _FLUTTER.toLowerCase(),
-        _DART.toLowerCase(),
-      ],
-    ),
-    tech: ProjectInfo(
-      icon: kiChip,
-      label: 'Tools & Technologies',
-      contents: [
-        _DART.toUpperCase(),
-        _FLUTTER.toUpperCase(),
-      ],
-    ),
-    author: ProjectInfo(
-      icon: kiPerson,
-      label: 'Developer',
-      contents: [
-        _ME,
-      ],
-    ),
-    platform: ProjectInfo(
-      icon: kiLaptop,
-      label: 'Available Platforms',
-      contents: [
-        _ANDROID,
-        _IOS,
+        _WEB,
+        // _DESKTOP,
       ],
     ),
   ),
