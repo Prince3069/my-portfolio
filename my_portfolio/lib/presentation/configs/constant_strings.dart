@@ -842,33 +842,55 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     ),
   ),
   ShowcaseProject(
-    title: 'GraphQL Notes',
-    image: kaGraphQLNotes,
-    shortDescription: "My Apollo graphQL Associate Certified Developer path",
+    title: 'AnyDo',
+    image:
+        kaGraphQLNotes, // Ensure you add a relevant image to your assets or provide a network image
+    shortDescription:
+        'A simple and elegant to-do list app built with Flutter and Firebase.',
     description: """
-       My Apollo graphQL Associate Certified Developer path coding practice notes
-       All of these notes are available at Apollo GraphQL Tutorials
-        """,
+    AnyDo is a lightweight and powerful task management application designed to help users stay organized and boost productivity.
+
+    Core Features:
+      - Create, update, delete, and complete tasks
+      - Organize tasks by categories and due dates
+      - Task reminders and push notifications
+      - Firebase Authentication for personalized task management
+      - Real-time sync across devices using Firestore
+      - Offline task management with local caching
+      - Minimalistic and user-friendly UI
+      - Dark and light theme support
+  """,
     link: ProjectInfo(
       icon: kiLink,
       label: "Project Links",
       isLink: true,
       contents: [
-        "https://github.com/YeLwinOo-Steve/graphql-associate-dev",
+        "https://github.com/Prince3069/any_do",
       ],
     ),
-    heroTag: 'graphql_notes',
+    heroTag: 'any-do',
     tags: ProjectInfo(
       icon: kiTag,
       label: 'Tags',
       isTag: true,
-      contents: ['GraphQL', 'note'],
+      contents: [
+        'flutter',
+        'todo',
+        'task manager',
+        'firebase',
+        'productivity',
+      ],
     ),
     tech: ProjectInfo(
       icon: kiChip,
       label: 'Tools & Technologies',
       contents: [
-        _GRAPHQL.toLowerCase(),
+        'FLUTTER',
+        'DART',
+        'FIREBASE',
+        'FIRESTORE',
+        'FIREBASE AUTH',
+        'FCM',
       ],
     ),
     author: ProjectInfo(
@@ -881,7 +903,11 @@ final List<ShowcaseProject> ksShowcaseProjects = [
     platform: ProjectInfo(
       icon: kiLaptop,
       label: 'Available Platforms',
-      contents: [],
+      contents: [
+        _ANDROID,
+        _IOS,
+        _WEB,
+      ],
     ),
   ),
   ShowcaseProject(
